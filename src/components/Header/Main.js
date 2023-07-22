@@ -1,5 +1,5 @@
 import React from 'react'
-import RocketIcon from './RocketIcon'
+import RocketIcon from '../Icons/RocketIcon'
 import Space from '../../assets/images/astronaut-space-with-planet-background_1340-28941.jpg' 
 import Anime from '../../assets/images/download.jpg'
 

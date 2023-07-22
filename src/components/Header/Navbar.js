@@ -1,6 +1,6 @@
 import React from 'react'
-import IconPage from './IconPage'
-import PeopleIcon from './PeopleIcon'
+import IconPage from '../Icons/IconPage'
+import PeopleIcon from '../Icons/PeopleIcon'
 
 export default function Header() {
     return (

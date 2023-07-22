@@ -1,6 +1,6 @@
 import React from 'react'
-import RocketIcon from '../Header/RocketIcon'
-import EyeIcone from './EyeIcon'
+import RocketIcon from '../Icons/RocketIcon'
+import EyeIcone from '../Icons/EyeIcon'
 import User from '../../assets/images/download.jpg'
 import Space from '../../assets/images/astronaut-space-with-planet-background_1340-28941.jpg'
 
@@ -117,7 +117,7 @@ export default function UserSection() {
             <div className="col-12 col-md-4 mt-5">
                 <button className='btn btn-info border-primary mt-3 px-4 py-2 float-end'><EyeIcone/> See All</button>
             </div>
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-4 mt-3">
                 <div className="container">
                 <img src={Space} alt="" className='img-fluid rounded-top'/>
                  <div className="container rounded-bottom pb-1 pt-2" style={{backgroundColor:"#495057"}}>
@@ -136,7 +136,7 @@ export default function UserSection() {
                  </div>
                 </div>
                 </div>
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-4 mt-3">
                 <div className="container">
                 <img src={Space} alt="" className='img-fluid rounded-top'/>
                  <div className="container rounded-bottom pb-1 pt-2" style={{backgroundColor:"#495057"}}>
@@ -155,7 +155,7 @@ export default function UserSection() {
                  </div>
                 </div>
                 </div>
-                <div className="col-12 col-md-4">
+                <div className="col-12 col-md-4 mt-3">
                 <div className="container">
                 <img src={Space} alt="" className='img-fluid rounded-top'/>
                  <div className="container rounded-bottom pb-1 pt-2" style={{backgroundColor:"#495057"}}>
